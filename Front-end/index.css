@@ -1,0 +1,424 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav1{
+  margin-left: 200px;
+  padding-bottom: 100px;
+  padding-top: 45px;
+  margin-top: -40px;
+}
+.headbro2{
+  background-color: #001C30;
+  border:2px solid wheat;
+  width:100%;
+  height:230px;
+  margin-top: 0;
+}
+nav a{
+  text-decoration: none;
+  margin-right: 25px;
+  margin-left: 70px;
+  font-size: 20px;
+  color:white;
+}
+nav a.active{
+  text-decoration: underline lavender;
+  font-size: 35px;
+}
+.hero{
+  border: black solid ;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);  grid-template-rows: repeat(1,1fr);
+  border: 10px;
+}
+.grid-box{
+  color: lavender;
+  padding: 10px;
+  border: 5px solid;
+  border-radius: 10px;
+}
+.abc{
+  height:150px;
+  margin-top: -410px;
+  padding-left: 30px;
+}
+.ab{
+  margin-left: 970px; 
+  height: 150px; 
+  margin-top: -410px;
+}
+.ac{
+  margin-left: 7px;
+  height: 150px;
+  margin-top: -410px;
+}
+.item1{
+  display: flex;
+  margin-top: 200px;
+  grid-column: 1/-1;
+  height:20px;
+}
+.item1 h2{
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+  height: 100px;
+}
+.imagebro{
+  width: 120px;
+}
+.item2{
+  display: grid;
+  grid-column: 1/-1;
+  padding-bottom: 100px;
+}
+.item3{
+  display:grid;
+  grid-column: 1/-1;
+  
+}
+.rgmcbro{
+  grid-column: 1;
+  grid-row: 1;
+  width: 1490px;
+  display: block;
+  height: 100%;
+}
+.head1{
+align-self: center;
+grid-column: 1;
+grid-row: 1;
+color:rgb(129,25,25);
+font-size: 35px;
+}
+.asir1{
+  width: 40%;
+  height:350px;
+  margin-left: 230px;
+  padding-top: 30px;    
+}
+.asir1:hover{
+  transform: scale(1.2);
+  transition-duration: 1.3s;
+}
+.ssir1{
+  width: 38%;
+  height: 350px;
+  margin-left: 230px;
+  padding-top: 35px;
+}
+.ssir1:hover{
+  transform: scale(1.2);
+  transition-duration: 1.3s;
+}
+.inside1,.inside2{
+  text-align: center;
+  color: whitesmoke;
+  font-size:5px;
+  padding-top: 25px;
+}
+.inside3{
+  padding-top: 200px;
+  width: 600px;
+  margin-left: 65px;
+  height:370px;
+}
+
+.item4,.item5{
+  height:700px;
+  background: linear-gradient(lavender,rgb(190, 173, 230),gray);
+}
+.hello{
+  padding-top: 200px;
+}
+.hai{
+  padding-top: 100px;
+}
+.gallery2{
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 50px;
+  color:rgb(60, 35, 83);
+  font-size: 30px;
+  font-style: italic;
+  
+}
+.item2{
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0PX;
+}
+.item2,h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.item6,.item7{
+  background: linear-gradient(lavender,lightblue,rosybrown);
+  height:450px;
+  border:2px solid lavender;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.gallery{
+  color: black;
+  font-size: 60px;
+  font-style: italic;
+  padding-top: 5px;
+
+}
+body{
+  overflow-x: hidden;
+} 
+
+p1{
+  
+  color: blue;
+  font-size: 65px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+h3{
+  font-size: 80px;
+}
+p{
+  font-size: 30px;
+
+}
+.login-form{
+  padding-top: 0px;
+  width: 700px;
+  margin:0 auto;
+  border:3px solid black;
+  border-radius: 5px;
+  background-color:darkcyan;
+  /* background-color: linear-gradient(darkcyan,white,skyblue); */
+  padding:10px;
+  padding-right: 25px;
+ 
+}
+.login-form label{
+  display:block;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:5px;
+  text-align: center;
+}
+.login-form input{
+  width:100%;
+  border:2px solid aliceblue;
+  border-radius: 5px;
+  padding:5px;
+  font-size: 25px;
+}
+.login-form button{
+  margin-left:290px;
+  margin-top: 20px;
+  background-color: cadetblue;
+  color:white;
+  width:21%;
+  font-size: 25px;
+  /* text-align: center; */
+}
+.login-form button:hover{
+  background-color:rosybrown;
+  color: white;
+}
+.login-form a{
+  font-size: 28px;
+  padding-left: 310px;
+}
+.login-form h4{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-size: 20px;
+  color: black;
+}
+.login-form h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  font-size: 40px;
+}
+.signup-form h1{
+  text-decoration: underline;
+  color: white;
+}
+.signup-form{
+  width:700px;
+  border:3px solid black;
+  border-radius: 5px;
+  background-color: darkslategray;
+  padding:10px;
+  padding-right: 25px;
+  margin-left: 400px;  
+}
+.signup-form label{
+  display:block;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:5px;
+  text-align: center;
+  color: white;
+}
+.signup-form input{
+  width:100%;
+  border:2px solid aliceblue;
+  border-radius: 5px;
+  padding:5px;
+  font-size: 20px;
+}
+.signup-form button{
+  margin-left:300px;
+  margin-top: 20px;
+  width: 17%;
+  font-size: 25px;
+  
+  color:white;
+  background-color: black;
+}
+.signup-form button:hover{
+  color: white;
+  background-color: rosybrown;
+}
+.signup-form p{
+  color:red;
+  font-size: 12px;
+  text-align: center;
+}
+.about{
+  background-color: lavender;
+  height: 450px;
+}
+.about p{
+  color: rosybrown;
+}
+.about h1{
+  text-align: center;
+}
+.bys-form form{
+  
+  /* margin-left: 1.5%; */
+  border: 2px solid skyblue;
+  width:100%;
+  height: 100%;
+  /* border-radius: 5%; */
+  background-color: lavender;
+  /* padding:  80px; */
+}
+.bys-form  form h2{
+  text-decoration: 2px rosybrown underline;
+  
+  padding-left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rosybrown;
+}
+.bys-form label{
+  font-size: 25px;
+}
+.bys-form input{
+  font-size: 15px;
+}
+.form-add{
+  padding:20px;
+  padding-right: 40px;
+  border:2px solid black;
+  width:250px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: lightblue;
+  font-style: italic;
+  
+
+}
+.form-add label{
+  display:block;
+  font-weight: 16px;
+  margin-bottom: 5px; 
+  padding-left: 100px;
+}
+.form-add select{
+  width:110%;
+  padding:10px;
+  margin-bottom: 15px;
+  border:3px solid rosybrown;
+  border-radius: 5px;
+
+}
+.form-add input{
+  width:100%;
+  padding:10px;
+  margin-bottom: 15px;
+  border:3px solid rosybrown;
+  border-radius: 5px;
+
+}
+.form-add button{
+  width:70%;
+  display: block;
+  background-color: burlywood;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 50px;
+}
+.form-add button:hover{
+  background-color: cadetblue;
+}
+.v2{
+  width:20%;
+  display: block;
+  background-color:cadetblue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 6px;
+  margin-left: 600px;
+}
+.v2:hover{
+  background-color: rosybrown;
+
+}
+.seat {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style for booked seats */
+.seat.booked {
+  background-color: black;
+  color: white; /* You can change the text color to white or any other color for visibility */
+  cursor: not-allowed; /* Disable cursor for booked seats */
+}
+.seat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lavender;
+}

@@ -1,0 +1,93 @@
+.github-profile {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .name-bio {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .bio {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .location {
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  .heroes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .hero {
+    width: calc(33.333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .hero .title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero .description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .hero .tech {
+    display: block;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .prev {
+    display: inline-block;
+    font-size: 1rem;
+    color: #666;
+    margin-right: 10px;
+  }
+  
+  .page-number {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .twitter-link {
+    text-align: center;
+  }
+  
+  .twitter-link a {
+    display: block;
+    font-size: 1.2rem;
+    color: #00acee;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
